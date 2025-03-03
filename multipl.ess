@@ -1,0 +1,10 @@
+start
+new two number
+set two 2
+new i number
+set i 1
+loop counter (i<11)
+    log number two>>" * ">>i>>" = ">>two*i
+    set i i+1
+end counter
+finish
