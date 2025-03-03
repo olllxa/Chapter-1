@@ -9,5 +9,5 @@ new g string
 set g "G"
 new o string
 set o "O"
-log string b<< "-"<<i<<"-"<<n<<"-"<<g<<"-"<<o
+log string b>> "-">>i>>"-">>n>>"-">>g>>"-">>o
 finish
