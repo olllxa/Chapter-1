@@ -5,17 +5,17 @@ new surname string
 set surname "Dasaev"
 new patronymic string
 set patronymic "Palych"
-new num number
-set num 0000000000000000
-new cvv number
-set cvv 000
-new data number
-set data 0000
-log string "----------------------------------------------------"
-log string "|          ">>num>>"                |"
-log string "|                                                  |"
-log string "|          CVV: ">>cvv>>"                   |"
-log string "|                                                  |"
-log string "|  ">>name>>" ">>surname>>" ">>patronymic>>"       |"
-log string "----------------------------------------------------"
+new num string
+set num "0000 0000 0000 0000"
+new cvv string
+set cvv "000"
+new data string
+set data "00/00"
+log string "-----------------------------------------"
+log string "|	">>num>>"		|"
+log string "|	data: " >> data >> "			|"
+log string "|	CVV: " >> cvv >> "			|"
+log string "|					|"
+log string "|	" >> name >> " " >> surname >> " " >> patronymic >> "		|"
+log string "-----------------------------------------"
 finish
